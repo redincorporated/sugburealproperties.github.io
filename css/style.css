@@ -1,21 +1,10 @@
-.text-brand-color {
-  color: #A4542C;
-}
-
-.bg-brand-color {
-  background: #A4542C;
-}
-
-.bg-light-accent {
-  background: #D29D5D;
-}
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 body,
 table,
 input,
 select {
-  font-family: 'Rasa', serif;
+  font-family: "Roboto", sans-serif;
   background: #61311E;
 }
 
@@ -25,8 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Marck Script', cursive;
+  font-family: "Roboto Slab", serif;
   font-weight: bold;
+}
+
+section {
+  background: white;
+  color: #212529;
 }
 
 header {
@@ -39,6 +33,18 @@ footer {
   padding-bottom: 50px;
 }
 
+.bg-brand-color {
+  background: #A4542C;
+}
+
+.bg-light-accent {
+  background: #D29D5D;
+}
+
+.text-brand-color {
+  color: #A4542C;
+}
+
 .pt-20 {
   padding-top: 20px;
 }
@@ -46,3 +52,17 @@ footer {
 .pb-20 {
   padding-bottom: 20px;
 }
+
+.btn-brand-color {
+  color: #fff;
+  background-color: #A4542C;
+  border-color: #A4542C;
+}
+
+.btn-brand-color:hover {
+  color: #fff;
+  background-color: #7c3f21;
+  border-color: #7c3f21;
+}
+
+/*# sourceMappingURL=style.css.map */

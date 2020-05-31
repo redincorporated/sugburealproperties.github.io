@@ -1,0 +1,50 @@
+$brand-color: #A4542C;
+$light-accent: #D29D5D;
+$dark-accent: #61311E;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+body,
+table,
+input,
+select {
+  // font-family: 'Rasa', serif;
+  font-family: 'Roboto', sans-serif;
+
+  background: $dark-accent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: 'Marck Script', cursive;
+  font-family: 'Roboto Slab', serif;
+
+  font-weight: bold;
+}
+
+section {
+  background: white;
+  color: #212529;
+}
+
+header {
+  background: $light-accent;
+  padding: 50px 0;
+}
+
+footer {
+  color: white;
+  padding-bottom: 50px;
+}
+
+@import 'bg';
+@import 'text';
+@import 'p';
+@import 'btn';
